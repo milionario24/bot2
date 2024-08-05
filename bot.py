@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s', level=logging.INFO)
 
 # Substitua pelo seu token do bot
-TOKEN = "7214629017:AAENgSggNKjtFPGQeC6vCUKt5mr1YOzLAfU"
+TOKEN = "6373715280:AAF3w1GTFQSn3zBH90GHv-tM0sEjX6I02o8"
 
 # Lista de produtos, preços e informações
 PRODUCTS = {
@@ -121,11 +121,11 @@ async def button(update: Update, context: CallbackContext) -> None:
             # Enviar novos detalhes com opções de suporte
             await query.message.reply_text(
                 f"You chose to buy: {item['name']}.\nPrice: ${item['price']:.2f}\n\n"
-                f"Please send the payment to PayPal using the email: anunciospan@gmail.com\n"
+                f"Please send the payment to PayPal using the email: clesiolucas7@gmail.com\n"
                 f"If you need another payment method, contact support.\n"
                 f"After payment, please send the proof to support:",
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("Support", url="https://t.me/Suporte_vip24")],
+                    [InlineKeyboardButton("Support", url="https:https://t.me/cleyadmin")],
                     [InlineKeyboardButton("Back to Menu", callback_data='back')]
                 ])
             )
