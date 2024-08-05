@@ -121,7 +121,7 @@ async def button(update: Update, context: CallbackContext) -> None:
             # Enviar novos detalhes com opções de suporte
             await query.message.reply_text(
                 f"You chose to buy: {item['name']}.\nPrice: ${item['price']:.2f}\n\n"
-                f"Please send the payment to PayPal using the email: dreexylamar86@gmail.com\n"
+                f"Please send the payment to PayPal using the email: anunciospan@gmail.com\n"
                 f"If you need another payment method, contact support.\n"
                 f"After payment, please send the proof to support:",
                 reply_markup=InlineKeyboardMarkup([
